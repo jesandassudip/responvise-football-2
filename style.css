@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+/* ****************
+header section start
+**************** */
+header{
+    background: #2D25A0;
+    height: 667px;
+    display: flex;
+    justify-content: center;
+}
+.header-section{
+    width: 1162px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+nav .nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 36px;
+}
+span.login-button a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    background: #E02C6D; 
+    padding: 10px 24px;
+
+}
+.login-icon{
+    margin-right: 8px;
+}
+/* nav section end */
+/* header banner section start */
+.header-banner-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.banner-content{
+    margin-top: 101px;
+}
+.banner-content h2{
+    color: #fff;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 27px;
+}
+.banner-content a{
+    text-decoration: none;
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 24px;
+}
+.banner-content a i{
+    margin-left: 8px;
+}
+.banner-image img{
+    width: 556px;
+    height: 438px;
+    margin-top: 67px;
+}
+/* header banner section end 0 */
+/* ************************************
+header section end
+**************************************** */
+/* ********************************
+main section start
+********************************* */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.players{
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap:30px;
+    grid-row-gap: 27px;
+}
+.player{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px 15px 33px 15px;
+}
+.palayer-image img{
+    width: 330px;
+    height: 256px;
+}
+.player-name{
+    color: #18191F;
+    font-size: 28px;
+    line-height: 40px;
+    margin: 16px 0;
+    font-weight: 700;
+}
+.player-description p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+/* palyers section end */
+
+/* highlight section start */
+.highlight-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 70px;
+    width: 1050px;
+    margin-top: 50px;
+}
+.highlight-description h3{
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+    margin: 0;
+}
+.highlight-description p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin: 8px 0;
+}
+.highlight-description a{
+    text-decoration: none;
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 24px;
+    margin-top: 16px;
+    display: inline-block;
+}
+.highlight-description a i{
+    margin-left: 8px;
+}
+.highlight-image img{
+    width: 567px;
+    height: 450px;
+}
+/* heighlight section end */
+/* album section start */
+.photo-album{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* width: 1050px; */
+    margin-top: 50px;
+    grid-column-gap: 5px;
+}
+.album-title h3{
+    text-align: center;font-size: 48px;
+}
+.photo-frame{
+    overflow: hidden;
+}
+.photo-frame img{
+    width: 145.7px;
+    transition: .5s;
+}
+.photo-frame img:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+/* album section end */
+/* contact us section start */
+.contact-section{
+    margin-top: 70px;
+}
+.contact-area{
+ border: 2px solid #2D25A0 ;
+ padding: 25px;
+ border-radius: 5px;
+}
+.contact-title h3{
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+}
+.contact-area input {
+    display: flex;
+    height: 40px;
+    width: 350px;
+    border: 1px solid #2D25A0;
+    background: #ffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 0 5PX;
+}
+.contact-area textarea{
+    resize: none;
+    width: 350px;
+    border: 1px solid #2D25A0;
+    background: #ffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 100px;
+    padding: 0 5PX;
+}
+.contact-area a{
+    text-decoration: none;
+    background: #2D25A0;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 15px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+/* contact us section end */
+/* footer section */
+.footer-section{
+    text-align: center;
+    margin-top: 138px;
+}
+.footer-logo img{
+    width: 483.87px;
+    height: 110px;
+    margin: 20px 0;
+}
+.footer-icon a {
+    font-size: 17px;
+    height: 32px;
+    vertical-align: cen;
+    text-align: center;
+    width: 32px;
+    line-height: 32px;
+    background: #969BAB;
+    display: inline-block;
+    border-radius: 50%;
+    color: #0B0D17;
+    margin: 0 14px;
+}
+.footer-copyright{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    margin: 20px 0;
+}
+
+/* end footer section */
+
+/* media query */
+@media only screen and (max-width:668px) {
+
+    nav{
+        display: none;
+    }
+    .header-banner-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    header{
+        background: #2D25A0;
+        height: 100%;
+        width: 793px;
+    }
+    .players{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .player{
+        justify-content: center;
+        align-items: center;
+    }
+    .highlight-section{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .photo-album{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@keyframes sliding {
+    0%{
+        background-color: #E02C6D ;
+        right: 0;
+        top: 0;
+    }
+    25%{
+        top: 200px;
+    }
+    50%{
+        top: 0;
+    }
+    75%{
+        top: 400px;
+    }
+    100%{
+        top: 600px;
+        right: 900px;
+    }
+}
+.animation-ball{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: relative;
+    animation: sliding 1s ease-in-out .5s infinite alternate ;
+    animation-play-state: running;
+}
